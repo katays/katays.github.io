@@ -1,15 +1,18 @@
+
+/* body element tag used to set the background color, font colour and font for the whole page I didn't want these to change as 
+I wanted to maintain a consistent colour theme*/
 body{
   background-color:linen;
-  color:darkslategray
+  color:darkslategray;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
-
+/*this general img tag allowed for all the pictures and maps to keep up a consistent theme on the page, source for how to do this 
+came from W3 schools css section */
 img {
   border: 10px solid rosybrown;
-
 }
-
+/*this sets the alignment and margins for the whole div class*/
 .top{
- /* color:darkslategray;*/
   text-align:left;
   margin-left: 75px;
 }
@@ -17,93 +20,71 @@ h1 {
  font-size: 75px;
  margin-bottom:10px;
 }
-p.top2 {
+.top2 {
   font-size:35px;
   margin-top:10px;
 }
 
 
-
+/* this .intro sets rules for the whole div class, adding the border was necessary for aligning the top margin of the paragraph, I couldn't figure out 
+a good reason why this worked, I did it by accident but it was the only was to centre the text in the middle of the picture vs at the top*/
 .intro{
-  font-family:Georgia, 'Times New Roman', Times, serif;
   color:darkslategrey;
   margin-top:80px;
   border:1px solid linen;
 }
-img.p1 {
+.p1 {
   float:right;
   margin-right:50px;
 }
-p.txtb {
+.txtb {
   font-size:15pt;
-  width:60%;
+  width:50%;
   margin-top:200px;
   margin-left:100px;
-  margin-bottom:250px;
+  margin-bottom:200px;
 }
 
-
-
-
-
-
-/*h2.titles {
-  color:darkslategray;
-  font-size: 25pt;
-  margin-left:300px;
-}*/
-
+/*this sets the rules for the education section, line height inspiration from W3 schools, to space out the text on the page*/
 .edu{
-  /*color:darkslategray;*/
   padding:2em;
   text-align: center;
   line-height: 30px;
 }
-h2.titles {
+/*this titles class ended up being applied to many different tags on the two pages and allowed for a consistent theme on my page*/
+.titles {
   font-size: 30pt;
   margin-bottom: 75px;
   border:1px solid linen;
   
 }
-img.p2 {
+.p2 {
 float:left;
 }
+
+/* this textc element was also used many times to set the paragraph tags on the page*/
 
 .txtc {
   margin-left: 300px;
   width:65%;
-  margin-top:50px;
+  margin-top:100px;
   margin-right:20px;
   margin-bottom:150px;
   font-size:15pt;
 }
 
-img.mapone {
+.mapone {
   float:right;
   margin-right:25px;
   margin-left:15px;
 }
 
-/*a {
-color:darkslategray;
-  background-color: lightgray;
-}
-
-ul.m {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    width:25%;
-   background-color: pink;
-    color:dimgray;
-    font-size: 15 pt;
-    text-align: left;
-}*/
-
+/*changing the background colour for the links allowed them to stand out against the rest of the page*/
 a {
- /* color:darkslategray;*/
   background-color: lightgray;
 }
+
+/*this tag is for the the main div class of the second page*/
 
 .hipt1 {
   padding:1em;
@@ -113,12 +94,12 @@ a {
   line-height: 30px;
 }
 
-img.p4 {
+.p4 {
     float:left;
     margin-right:25px;
 }
 
-img.p5 {
+.p5 {
   float:right;
   margin-left:25px;
 }
@@ -129,8 +110,9 @@ img.p5 {
   margin-bottom:75px;
 }
 
-h1.t2{
+.t2{
   font-size: 25pt;
+  margin-right:400px;
 
 }
 
@@ -142,16 +124,20 @@ h1.t2{
 
  
 
-
-img.last {
+/*this is for the div class at the very end*/
+.last {
   float:left;
   margin-left: 75px;
 
 }
 
-p.outp {
+.outp {
   width:75%;
   margin-left:20px;
   margin-top:50px;
   line-height:30px;
+}
+
+#fin {
+  color: slateblue;
 }
