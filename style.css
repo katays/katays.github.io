@@ -29,7 +29,7 @@ h1 {
 /* this .intro sets rules for the whole div class, adding the border was necessary for aligning the top margin of the paragraph, I couldn't figure out 
 a good reason why this worked, I did it by accident but it was the only was to centre the text in the middle of the picture vs at the top*/
 .intro{
-  color:darkslategrey;
+  color:rosybrown;
   margin-top:80px;
   border:1px solid linen;
 }
