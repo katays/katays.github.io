@@ -82,6 +82,7 @@ float:left;
 /*changing the background colour for the links allowed them to stand out against the rest of the page*/
 a {
   background-color: lightgray;
+  color:indigo;
 }
 
 /*this tag is for the the main div class of the second page*/
